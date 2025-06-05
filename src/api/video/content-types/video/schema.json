@@ -14,7 +14,7 @@
     "title": {
       "type": "string"
     },
-    "videoUrl": {
+    "url": {
       "type": "string"
     },
     "imageUrl": {
