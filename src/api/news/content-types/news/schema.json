@@ -14,10 +14,10 @@
     "title": {
       "type": "string"
     },
-    "url": {
+    "subtitle": {
       "type": "string"
     },
-    "subtitle": {
+    "url": {
       "type": "string"
     },
     "thumbnail": {
