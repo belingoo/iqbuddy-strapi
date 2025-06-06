@@ -17,7 +17,7 @@
     "url": {
       "type": "string"
     },
-    "imageUrl": {
+    "thumbnail": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
