@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "videos",
+  "collectionName": "books",
   "info": {
-    "singularName": "video",
-    "pluralName": "videos",
-    "displayName": "Video"
+    "singularName": "book",
+    "pluralName": "books",
+    "displayName": "Book"
   },
   "options": {
     "draftAndPublish": true
@@ -12,6 +12,9 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
+      "type": "string"
+    },
+    "subtitle": {
       "type": "string"
     },
     "url": {
@@ -25,13 +28,6 @@
         "files",
         "videos",
         "audios"
-      ]
-    },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "standard",
-        "music"
       ]
     }
   }

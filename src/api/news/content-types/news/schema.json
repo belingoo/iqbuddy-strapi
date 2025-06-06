@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "videos",
+  "collectionName": "newss",
   "info": {
-    "singularName": "video",
-    "pluralName": "videos",
-    "displayName": "Video"
+    "singularName": "news",
+    "pluralName": "newss",
+    "displayName": "News"
   },
   "options": {
     "draftAndPublish": true
@@ -17,6 +17,9 @@
     "url": {
       "type": "string"
     },
+    "subtitle": {
+      "type": "string"
+    },
     "thumbnail": {
       "type": "media",
       "multiple": false,
@@ -25,13 +28,6 @@
         "files",
         "videos",
         "audios"
-      ]
-    },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "standard",
-        "music"
       ]
     }
   }
