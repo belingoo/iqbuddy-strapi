@@ -53,6 +53,14 @@
           "localized": true
         }
       }
+    },
+    "csvName": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
