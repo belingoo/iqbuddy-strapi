@@ -21,7 +21,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     },
     "url": {
       "type": "string",
@@ -29,7 +30,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     },
     "thumbnail": {
       "type": "media",
@@ -39,6 +41,7 @@
         }
       },
       "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -53,6 +56,8 @@
           "localized": true
         }
       },
+      "required": true,
+      "default": "standard",
       "enum": [
         "standard",
         "music"

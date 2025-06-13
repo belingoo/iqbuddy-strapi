@@ -21,7 +21,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     },
     "subtitle": {
       "type": "string",
@@ -29,7 +30,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     },
     "thumbnail": {
       "type": "media",
@@ -39,6 +41,7 @@
         }
       },
       "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -52,7 +55,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     }
   }
 }
